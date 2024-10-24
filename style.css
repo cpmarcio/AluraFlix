@@ -2,3 +2,10 @@ body{
     background-color: rgb(2, 0, 0);
     color: #23b823;
 }
+section{
+    background: darkolivegreen;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex; /* Torna flexivel = Um ao lado do outro*/
+    justify-content: center ;
+}
