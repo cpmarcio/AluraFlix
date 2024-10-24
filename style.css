@@ -9,3 +9,6 @@ section{
     display: flex; /* Torna flexivel = Um ao lado do outro*/
     justify-content: center ;
 }
+chamada-texto{
+    margin-right: 200px;
+}
