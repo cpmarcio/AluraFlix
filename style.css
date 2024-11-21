@@ -1,19 +1,42 @@
 body{
     background-color: rgb(2, 0, 0);
     color: #23b823;
+    font-family: "Henny Penny", system-ui;
 }
-section{
+header{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 35px;
+    color: beige    ;
+    text-align: center;
+}
+
+h1{
+     font-size: 30px;
+     color: white;
+}
+p{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.chamada{
     background: darkolivegreen;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex; /* Torna flexivel = Um ao lado do outro*/
     justify-content: center ;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .chamada-texto{
     margin-right: 5%;
 }
 img{
     height: 200px;
+}
+.categoria{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: yellow;
 }
 .categoria-videos{
     display: flex;
